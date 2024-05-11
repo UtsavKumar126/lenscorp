@@ -9,6 +9,7 @@ import Numbers from "./Components/Numbers";
 import GetinTouch from "./Components/GetinTouch";
 import Footer from "./Components/Footer";
 import License from "./Components/License";
+import Faqs from "./Components/Faqs";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -21,6 +22,7 @@ function App() {
       <Services/>
       <AmazingClients/>
       <Numbers/>
+      <Faqs/>
       <GetinTouch/>
       <Footer/>
       <License/>
